@@ -1,4 +1,3 @@
-
 import React from "react";
 
 const Component2 = props => {
@@ -8,6 +7,6 @@ return (
 <p>Title:{props.title}</p>
 </div>
 )
-}
+} 
 
 export default Component2;

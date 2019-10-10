@@ -1,6 +1,6 @@
 
 import React from "react";
-import Component1 from "./components/component1"
+import Component1 from "./components/Component1"
 import "./App.css";
 
 

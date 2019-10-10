@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from "react";
 import axios from "axios";
-import Component2 from "./component2";
+import Component2 from "./Component2";
 
 
 export default function Component1(){
