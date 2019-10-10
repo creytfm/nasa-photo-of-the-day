@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from "react";
 import axios from "axios";
 import Component2 from "./Component2";
+import styled from 'styled-components';
 
 
 export default function Component1(){
@@ -19,15 +20,25 @@ console.log(response);
 console.log("data not returned", error)
 })
 }, [])
+
+const WrapperDiv = styled.div`
+   color: blue;
+   font-size: 4rem;
+   font-family: monospace;
+`;
+
 return(
 
 <div>
+<WrapperDiv>
 <h1>picture of the day</h1>
+</WrapperDiv>
 <Component2
 key={comp1.id}
 image={comp1.url}
 title={comp1.title}
 />
 </div>
+
 )
 };
