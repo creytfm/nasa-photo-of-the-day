@@ -3,6 +3,7 @@ import Component1 from "./components/Component1"
 import "./App.css";
 import styled from 'styled-components'
 
+
 const Div = styled.div`
    color: blue;
    font-size: 4rem;

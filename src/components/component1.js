@@ -1,9 +1,7 @@
-import React, {useState, useEffect} from "react";
+import React, { useState, useEffect } from "react";
 import axios from "axios";
 import Component2 from "./Component2";
 import styled from 'styled-components';
-
-
 export default function Component1(){
 const [comp1 , setComp1] = useState([]);
 
@@ -27,7 +25,12 @@ const WrapperDiv = styled.div`
    font-family: monospace;
 `;
 
+
+
+
 return(
+
+
 
 <div>
 <WrapperDiv>
@@ -37,6 +40,8 @@ return(
 key={comp1.id}
 image={comp1.url}
 title={comp1.title}
+date={comp1.date}
+explanation={comp1.explanation}
 />
 </div>
 
